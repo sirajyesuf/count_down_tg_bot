@@ -43,3 +43,8 @@ def callback_query(update:Update,context:CallbackContext):
 
 
 callback_query_handler = CallbackQueryHandler(callback_query)
+
+
+
+
+# mongodb+srv://<username>:<password>@cluster0.moppb.mongodb.net/<dbname>?retryWrites=true&w=majority

@@ -4,10 +4,10 @@ class DatetimeFilter(MessageFilter):
     def filter(self,message):
         try:
             datetime.datetime.fromisoformat(message.text)
-            print("accepted")
+            # print("accepted")
             return True
         except ValueError:
-            print("rejected")
+            # print("rejected")
             return False
         
 
